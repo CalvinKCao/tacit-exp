@@ -1,0 +1,12 @@
+.venv/
+temp/
+repos/
+paper/
+.ai/
+.claude/
+__pycache__/
+results/acts/
+results/logs/
+data/q3/joint.jsonl
+data/tacit_runs/
+*.pt

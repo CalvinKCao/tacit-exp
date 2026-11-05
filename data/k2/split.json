@@ -1,0 +1,20 @@
+{
+ "train": [
+  "publish",
+  "apikey",
+  "records",
+  "subscription",
+  "transfer",
+  "access",
+  "purchase",
+  "fileshare"
+ ],
+ "val": [
+  "invoice",
+  "refund"
+ ],
+ "test": [
+  "email",
+  "deploy"
+ ]
+}

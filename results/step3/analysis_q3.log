@@ -1,0 +1,29 @@
+using joint ['last', 19, 0.001] prefix ['span_mean', 22, 0.001]
+done k2
+done k4_start
+done k4_mid
+done k8_start
+done k8_mid
+/home/cao/interp/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (800) reached and the optimization hasn't converged yet.
+  warnings.warn(
+done k16_start
+/home/cao/interp/.venv/lib/python3.12/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (800) reached and the optimization hasn't converged yet.
+  warnings.warn(
+done k16_mid
+test k2 {'joint': 0.777, 'joint_trained_on_K2': 0.777, 'prefix_B_action': 0.826, 'prefix_trained_on_K2': 0.826, 'late_max': 0.365, 'late_mean': 0.561, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.888, 'early_mlp': 0.844}
+test k4_start {'joint': 0.777, 'joint_trained_on_K2': 0.762, 'prefix_B_action': 0.823, 'prefix_trained_on_K2': 0.365, 'late_max': 0.365, 'late_mean': 0.687, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.96, 'early_mlp': 0.933}
+test k4_mid {'joint': 0.792, 'joint_trained_on_K2': 0.576, 'prefix_B_action': 0.85, 'prefix_trained_on_K2': 0.452, 'late_max': 0.365, 'late_mean': 0.687, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.96, 'early_mlp': 0.933}
+test k8_start {'joint': 0.719, 'joint_trained_on_K2': 0.546, 'prefix_B_action': 0.807, 'prefix_trained_on_K2': 0.308, 'late_max': 0.365, 'late_mean': 0.429, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.884, 'early_mlp': 0.807}
+test k8_mid {'joint': 0.676, 'joint_trained_on_K2': 0.245, 'prefix_B_action': 0.807, 'prefix_trained_on_K2': 0.327, 'late_max': 0.365, 'late_mean': 0.429, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.884, 'early_mlp': 0.807}
+test k16_start {'joint': 0.648, 'joint_trained_on_K2': 0.287, 'prefix_B_action': 0.762, 'prefix_trained_on_K2': 0.223, 'late_max': 0.365, 'late_mean': 0.429, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.62, 'early_mlp': 0.626}
+test k16_mid {'joint': 0.5, 'joint_trained_on_K2': 0.2, 'prefix_B_action': 0.467, 'prefix_trained_on_K2': 0.2, 'late_max': 0.365, 'late_mean': 0.429, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.62, 'early_mlp': 0.626}
+test k2_pad {'joint': 0.855, 'joint_trained_on_K2': 0.748, 'prefix_B_action': 1.0, 'prefix_trained_on_K2': 0.98, 'late_max': 0.365, 'late_mean': 0.561, 'late_logistic_sorted': 0.855, 'early_pca50_logistic': 0.888, 'early_mlp': 0.844}
+val_plus_test k2 {'joint': 0.879, 'joint_trained_on_K2': 0.879, 'prefix_B_action': 0.921, 'prefix_trained_on_K2': 0.921, 'late_max': 0.418, 'late_mean': 0.538, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.941, 'early_mlp': 0.903}
+val_plus_test k4_start {'joint': 0.785, 'joint_trained_on_K2': 0.831, 'prefix_B_action': 0.888, 'prefix_trained_on_K2': 0.516, 'late_max': 0.418, 'late_mean': 0.707, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.97, 'early_mlp': 0.957}
+val_plus_test k4_mid {'joint': 0.823, 'joint_trained_on_K2': 0.662, 'prefix_B_action': 0.895, 'prefix_trained_on_K2': 0.346, 'late_max': 0.418, 'late_mean': 0.707, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.97, 'early_mlp': 0.957}
+val_plus_test k8_start {'joint': 0.755, 'joint_trained_on_K2': 0.612, 'prefix_B_action': 0.871, 'prefix_trained_on_K2': 0.337, 'late_max': 0.418, 'late_mean': 0.429, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.921, 'early_mlp': 0.869}
+val_plus_test k8_mid {'joint': 0.762, 'joint_trained_on_K2': 0.277, 'prefix_B_action': 0.871, 'prefix_trained_on_K2': 0.267, 'late_max': 0.418, 'late_mean': 0.429, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.921, 'early_mlp': 0.869}
+val_plus_test k16_start {'joint': 0.705, 'joint_trained_on_K2': 0.444, 'prefix_B_action': 0.815, 'prefix_trained_on_K2': 0.298, 'late_max': 0.418, 'late_mean': 0.429, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.676, 'early_mlp': 0.666}
+val_plus_test k16_mid {'joint': 0.619, 'joint_trained_on_K2': 0.2, 'prefix_B_action': 0.6, 'prefix_trained_on_K2': 0.2, 'late_max': 0.418, 'late_mean': 0.429, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.676, 'early_mlp': 0.68}
+val_plus_test k2_pad {'joint': 0.799, 'joint_trained_on_K2': 0.791, 'prefix_B_action': 0.99, 'prefix_trained_on_K2': 0.99, 'late_max': 0.418, 'late_mean': 0.538, 'late_logistic_sorted': 0.933, 'early_pca50_logistic': 0.941, 'early_mlp': 0.903}
+saved

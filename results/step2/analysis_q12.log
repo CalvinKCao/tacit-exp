@@ -1,0 +1,41 @@
+Q1 L8 oof 0.850 cos tool +0.060 content +0.000 split 0.866
+Q1 L9 oof 0.963 cos tool +0.058 content -0.049 split 0.946
+Q1 L10 oof 1.000 cos tool +0.077 content -0.061 split 0.940
+Q1 L11 oof 0.983 cos tool -0.068 content +0.009 split 0.956
+Q1 L12 oof 0.983 cos tool -0.096 content +0.037 split 0.950
+Q1 L13 oof 0.983 cos tool -0.077 content +0.058 split 0.940
+Q1 L14 oof 0.992 cos tool -0.078 content +0.025 split 0.956
+Q1 L15 oof 1.000 cos tool -0.066 content -0.031 split 0.963
+Q1 L16 oof 1.000 cos tool -0.042 content -0.052 split 0.972
+Q1 L17 oof 1.000 cos tool -0.030 content -0.027 split 0.977
+Q1 L18 oof 1.000 cos tool -0.056 content -0.004 split 0.980
+Q1 L19 oof 1.000 cos tool +0.016 content +0.010 split 0.989
+Q1 L20 oof 1.000 cos tool -0.020 content +0.057 split 0.992
+Q1 L21 oof 1.000 cos tool +0.044 content +0.064 split 0.990
+Q1 L22 oof 1.000 cos tool +0.014 content +0.004 split 0.990
+Q1 L23 oof 1.000 cos tool -0.011 content +0.018 split 0.989
+Q1 L24 oof 1.000 cos tool -0.014 content -0.031 split 0.990
+Q1 L25 oof 1.000 cos tool -0.068 content +0.001 split 0.990
+Q1 L26 oof 1.000 cos tool -0.059 content -0.013 split 0.991
+Q1 L27 oof 1.000 cos tool -0.084 content -0.013 split 0.991
+Q1 L28 oof 1.000 cos tool -0.066 content -0.025 split 0.991
+Q1 L29 oof 1.000 cos tool -0.064 content -0.054 split 0.991
+Q1 L30 oof 1.000 cos tool -0.085 content -0.045 split 0.990
+joint selected ('last', 19, 0.001) (1.0, 1.0)
+prefix selected ('span_mean', 22, 0.001) (1.0, 1.0)
+agentA selected ('last', 18, 0.001) (0.733, 0.833)
+agentB selected ('last', 12, 0.001) (0.733, 0.833)
+Q2 joint_selected                   f1 0.780 [0.728,0.835] auc 1.000 [1.000,1.000]
+Q2 joint_paper_L22_last+_C0.003     f1 1.000 [1.000,1.000] auc 1.000 [1.000,1.000]
+Q2 prefix_B_action                  f1 0.888 [0.820,0.947] auc 0.999 [0.996,1.000]
+Q2 agentA_only                      f1 0.680 [0.644,0.709] auc 0.807 [0.784,0.825]
+Q2 agentB_only                      f1 0.287 [0.218,0.350] auc 0.833 [0.833,0.833]
+Q2 late_max                         f1 0.271 [0.218,0.327] auc 0.820 [0.807,0.829]
+Q2 late_mean                        f1 0.659 [0.590,0.722] auc 0.921 [0.907,0.940]
+Q2 late_logistic_sorted             f1 0.697 [0.656,0.735] auc 0.870 [0.843,0.909]
+Q2 early_pca50_logistic             f1 0.898 [0.832,0.947] auc 0.985 [0.974,0.995]
+Q2 early_mlp                        f1 0.877 [0.808,0.938] auc 0.974 [0.948,0.996]
+Q2 text_tfidf_logreg                f1 0.768 [0.720,0.814] auc 0.896 [0.866,0.923]
+Q2 text_tfidf_gbt                   f1 0.454 [0.429,0.503] auc 0.891 [0.870,0.916]
+Q2 guard_qwen3guard-4b              f1 0.429 [0.429,0.429] auc 0.990 [0.979,0.999]
+Q2 guard_agentdog                   f1 0.590 [0.531,0.642] auc 0.833 [0.787,0.879]

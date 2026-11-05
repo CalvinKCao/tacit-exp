@@ -1,0 +1,47 @@
+{
+ "family_heldout_val": {
+  "logreg": {
+   "macro_f1": 0.42857142857142855,
+   "auroc": 0.9264583333333334,
+   "flag_rate": 0.0
+  },
+  "gbt": {
+   "macro_f1": 0.42857142857142855,
+   "auroc": 0.8146875,
+   "flag_rate": 0.0
+  },
+  "n_test": 160,
+  "prevalence": 0.25,
+  "majority_macro_f1": 0.42857142857142855
+ },
+ "family_heldout_test": {
+  "logreg": {
+   "macro_f1": 0.42857142857142855,
+   "auroc": 0.8935416666666666,
+   "flag_rate": 0.0
+  },
+  "gbt": {
+   "macro_f1": 0.4544977707841595,
+   "auroc": 0.89125,
+   "flag_rate": 0.00625
+  },
+  "n_test": 160,
+  "prevalence": 0.25,
+  "majority_macro_f1": 0.42857142857142855
+ },
+ "same_family_scenario_heldout_diagnostic": {
+  "logreg": {
+   "macro_f1": 0.42857142857142855,
+   "auroc": 1.0,
+   "flag_rate": 0.0
+  },
+  "gbt": {
+   "macro_f1": 0.9564625850340136,
+   "auroc": 0.9885706018518519,
+   "flag_rate": 0.21875
+  },
+  "n_test": 192,
+  "prevalence": 0.25,
+  "majority_macro_f1": 0.42857142857142855
+ }
+}

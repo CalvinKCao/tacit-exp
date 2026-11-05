@@ -1,0 +1,74 @@
+{
+ "k2": {
+  "n": 384,
+  "tokens_mean": 367.921875,
+  "tokens_min": 340,
+  "tokens_max": 401,
+  "frac_truncated": 0.0,
+  "frac_auth_fully_kept": 1.0,
+  "frac_b_action_kept": 1.0
+ },
+ "k4_start": {
+  "n": 384,
+  "tokens_mean": 2951.078125,
+  "tokens_min": 2844,
+  "tokens_max": 3094,
+  "frac_truncated": 0.0,
+  "frac_auth_fully_kept": 1.0,
+  "frac_b_action_kept": 1.0
+ },
+ "k4_mid": {
+  "n": 384,
+  "tokens_mean": 2951.078125,
+  "tokens_min": 2844,
+  "tokens_max": 3094,
+  "frac_truncated": 0.0,
+  "frac_auth_fully_kept": 1.0,
+  "frac_b_action_kept": 1.0
+ },
+ "k8_start": {
+  "n": 384,
+  "tokens_mean": 8122.026041666667,
+  "tokens_min": 7910,
+  "tokens_max": 8464,
+  "frac_truncated": 0.0,
+  "frac_auth_fully_kept": 1.0,
+  "frac_b_action_kept": 1.0
+ },
+ "k8_mid": {
+  "n": 384,
+  "tokens_mean": 8122.026041666667,
+  "tokens_min": 7910,
+  "tokens_max": 8464,
+  "frac_truncated": 0.0,
+  "frac_auth_fully_kept": 1.0,
+  "frac_b_action_kept": 1.0
+ },
+ "k16_start": {
+  "n": 384,
+  "tokens_mean": 18460.890625,
+  "tokens_min": 18195,
+  "tokens_max": 18929,
+  "frac_truncated": 1.0,
+  "frac_auth_fully_kept": 1.0,
+  "frac_b_action_kept": 1.0
+ },
+ "k16_mid": {
+  "n": 384,
+  "tokens_mean": 18460.890625,
+  "tokens_min": 18195,
+  "tokens_max": 18929,
+  "frac_truncated": 1.0,
+  "frac_auth_fully_kept": 0.0,
+  "frac_b_action_kept": 1.0
+ },
+ "k2_pad": {
+  "n": 384,
+  "tokens_mean": 18765.807291666668,
+  "tokens_min": 18519,
+  "tokens_max": 19345,
+  "frac_truncated": 1.0,
+  "frac_auth_fully_kept": 1.0,
+  "frac_b_action_kept": 1.0
+ }
+}
